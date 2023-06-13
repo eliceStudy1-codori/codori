@@ -29,7 +29,7 @@ rl.on('line', function (line) {
     let arr = [];
     // 2. 입력받은 숫자값까지 반복을 해야 한다.
     // 3. repeat 메소드를 사용하여 1부터 입력값까지 반복하여 배열에 추가한다.
-    // 4. ex) 입력값이 3일때 arr = ["*", "**", "**"]
+    // 4. ex) 입력값이 3일때 arr = ["*", "**", "***"]
     for(let i=1; i<=Number(input[0]); i++) {
         arr.push('*'.repeat(i));
     }
