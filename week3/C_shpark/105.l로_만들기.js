@@ -9,7 +9,7 @@ myString은 알파벳 소문자로 이루어진 문자열입니다.
 입출력 예
 myString	result
 "abcdevwxyz"	"lllllvwxyz"
-"jjnnllkkmm"	"llnnllllmm"
+"jjnnllkkmm"	"llnnllllmm" 
 */
 function solution(myString) {
     //map메소드와 삼항연산자로 l보다 앞서는 모든 문자를 l로 바꿔주었습니다.
